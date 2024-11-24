@@ -1,6 +1,5 @@
 from many_to_many import Author, Book, Contract
 import pytest
-
 def test_book_init():
     """Test Book class initializes with title"""
     book = Book("Title")
